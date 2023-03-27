@@ -1,0 +1,513 @@
+/* MARGINS + BACKGROUND--------------------------------------------------*/
+* { 
+  margin:auto;
+}
+
+body {
+  background-image: url("background.jpg");
+  font-family: "Trirong", serif;
+}
+
+/* NAVIGATION SYSTEM---------------------------------------------------------*/
+
+/*LAKE SIDE IMG ABOVE BANNER*/
+.logopic { 
+  margin-left:-30px;
+  margin-bottom:-40px;
+  width:35%;
+  height:auto;
+}
+
+/*SEARCH BAR*/
+.search-container {  
+  float:right;
+  height:50px;
+  width:300px;
+  padding:1.7%;
+  padding-left:3%;
+}
+
+.search-container input { 
+  height:52px;
+  width:300px;
+  font-size:120%;
+}
+
+/*ICONS*/
+.searchicon { /*MAGNIFY GLASS ICON*/
+  float:right;
+  margin-right:-40px;
+  padding-top:40px;
+  padding-bottom:2%;
+  height:40px;
+}
+
+.navicon { /* CART AND USER ICON */
+  float:right;
+  height:40px;
+  padding-left:0.5%;
+  padding-right:22px;
+  padding-top:40px;
+  padding-bottom:2%;
+} 
+
+/*NAV LINKS*/
+.navlinks { 
+  font-size:50px;
+  text-align:right;
+  margin-left:550px;
+  margin-right:60px;
+  margin-top:-90px;
+  padding:20px;
+  color:rgb(0, 0, 0);
+}
+
+/* INTERACTIVE LINK CHANGES */
+a.links:link {color:#000000;text-decoration:none;}
+a.links:visited {color:#000000;text-decoration:none;}
+a.links:hover {color:green;text-decoration:none;}
+
+/*FOR SHOP DROP DOWN MENU*/
+.dropbtn {
+  background-color: #4caf4f00;
+  color: rgb(0, 0, 0);
+  font-size:50px;
+  padding:20px;
+  text-align:right;
+  border: none;
+  cursor: pointer;
+  font-family: "Trirong", serif;
+}
+  
+.dropdown {
+  position: relative;
+  display: inline-block; 
+}
+
+/*LINKS IN DROPDOWN MENU*/
+.dropdown-content {
+  display: none;
+  text-align:right;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*INERACTIVE LINK CHANGES*/
+.dropdown-content a:hover {
+  background-color: #525252
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  color:green;
+}
+
+/*BANNER SETTINGS UNDER NAV*/
+/*BANNER PHOTO ITSELF*/
+.banner {
+  width:100%;
+  height:300px;
+  object-fit: cover;
+  filter:opacity(95%);
+  border-top: 2px solid rgb(4, 82, 1);
+  border-bottom: 2px solid rgb(4, 82, 1);
+}
+/*BIG TEXT IN BANNER*/
+.slogan { 
+  position:absolute;
+  margin-top:-220px;
+  color:rgba(255, 255, 255, 0.911);
+  font-size:50px;
+  text-align:center;
+  margin-left:80px;
+  margin-right:80px;
+  padding-bottom:2px;
+  font-size:80px;
+}
+/*SMALL SUBTEXT IN BANNER UNDER SLOGAN*/
+.slogansub { 
+  position:absolute;
+  margin-top:-90px;
+  color:rgba(255, 255, 255, 0.911);
+  font-size:50px;
+  text-align:center;
+  margin-left:80px;
+  margin-right:80px;
+  padding-bottom:2px;
+  font-size:20px;
+}
+
+/*FOOTER INFO*/
+.footernav { 
+  background-color:rgb(255, 255, 255);
+  text-align:center;
+  font-size:30px;
+  margin-top:600px;
+}
+
+/*FOOTER FOR FB LOGO INFO*/
+.footerfb{ 
+  width:50px;
+  margin-right:60px;
+  margin-bottom:00px;
+}
+
+/*SMALL REAL FOOTER INFO*/
+footer { 
+  background-color:rgba(24, 49, 27, 0.644);
+  font-size:20px;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:20px;
+  color:rgba(255, 255, 255, 0.493);
+}
+
+/*TEXT SETTINGS-------------------------------------------*/
+/* BIG TITLE WITH UNDERLINE */
+.titlehome { 
+  font-size:80px;
+  border-bottom: 2px rgb(0, 0, 0) solid; 
+  text-align:center;
+}
+/*SMALL PARAGRAPH TEXT*/
+.homeintro { 
+  font-size:25px;
+  text-align:left;
+  margin-top:200px;
+  margin-left:40px;
+  margin-right:200px;
+  background-color:rgba(58, 88, 62, 0.644);
+  padding:25px;
+}
+/* INDEX -------------------------------------------------------------- */
+/*PRODUCTS AND SERVICES BUTTONS*/
+.column {
+  float:left;
+  width: 30%;
+  margin-left:2%;
+  margin-right:1%;
+  text-align:center;
+  background-color:rgb(214, 214, 214);
+  margin-bottom:80px;
+}
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(21, 77, 40, 0.877);
+}
+  
+.container {
+  padding: 10 16px;
+}
+  
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*BUTTON FOR PRODUCTS AND SERVICES*/
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(19, 19, 19);
+  background-color:rgba(58, 88, 62, 0.644);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size:30px;
+  margin-top:8px;
+}
+/*INTERACTIVE BUTTON OPTIONS*/
+.button:hover {
+  background-color: #1f2420;
+  color:green;
+}
+/*PHOTOS ON INDEX------------------------------------*/
+/*Shop pic with OUR GOAL TO YOU*/
+#product { 
+  float:right;
+  margin:80px;
+  width:900px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+/*Map pic with LOCATION*/
+#directions { 
+  margin-left:350px;
+  margin-top:-20px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*BAIT/TACKLE-------------------------------------------*/
+/*ROW PRODUCT SETTINGS*/
+.row1 { 
+  margin-top:60px;
+}
+.row2 { 
+  margin-top:560px;
+}
+.row3 { 
+  margin-top:560px;
+  margin-bottom:800px;
+}
+
+/*TITLE FOR EACH ROW*/
+.rowtitle { 
+  font-size:70px;
+  border-bottom:2px solid rgba(0, 0, 0, 0.534);
+  padding-bottom:2px;
+  text-align:center;
+}
+
+/*PICTURE WITH PRODUCT*/
+.productpics { 
+  width:600;
+  height:400;
+}
+
+/*LINING UP PRODUCTS*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-top:20px;
+  margin-left:60px;
+  width: 180px;
+}
+
+/* INTERACTIVE PRODUCT PHOTOS*/
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*SERVICES--------------------------------------------------------*/
+/*BIG DEER UNDER HUNTING*/
+#deer { 
+  width:700px;
+  float:right;
+  margin-right:60px;
+  margin-top:-30px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*TURKEY PIC UNDER HUNTING*/
+#turkey { 
+  position:absolute;
+  float:right;
+  width:550px;
+  margin-left:1000px;
+  margin-top:350px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*FISH PIC UNDER HUNTING*/
+#fish { 
+  position:absolute;
+  float:right;
+  width:250px;
+  margin-left:1600px;
+  margin-top:400px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*REEL PHOTO UNDER RESPOOLING*/
+#reel { 
+  position:absolute;
+  float:right;
+  width:550px;
+  margin-left:1170px;
+  margin-top:-500px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*ABOUT--------------------------------------------------------*/
+/*HOURS OF OPERATION TABLE*/
+.columnhunt {
+  float: left;
+  width: 40%;
+  padding: 5px;
+  margin-top:100px;
+  background-color:rgba(58, 88, 62, 0.288);
+  font-size:30px;
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #063b14;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+/*Applying every other color a dif color*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*TEXT LIKING ON FB*/
+#LIKEFB { 
+  font-size:80px;
+  background-color:rgba(58, 88, 62, 0.644);
+  text-align:center;
+  padding-top:20px;
+  margin-top:-20px;
+  font-weight:bold;
+}
+
+/* PHOTOS ON ABOUT ------------------------------------------------------*/
+/*SHOP PHOTO NEXT TO HOURS*/
+#realplace { 
+  width:700px;
+  float:right;
+  margin-right:60px;
+  margin-top:-650px;
+  padding:20px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/* MUSHROOM PHOTOS NEXT TO COMMUNITY TEXT*/
+#mushroomone { 
+  position:absolute;
+  width:300px;
+  float:left;
+  margin-right:200px;
+  margin-left:-30px;
+  margin-top:-200px;
+  padding:25px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+#mushroomtwo { 
+  width:300px;
+  float:left;
+  margin-left:20px;
+  margin-right:30px;
+  margin-top:-400px;
+  padding:25px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*OLD MAN SUPER BIG FISH*/
+#dudefishing { 
+  position:absolute;
+  width:550px;
+  float:right;
+  margin-left:400px;
+  margin-top:100px;
+  padding:25px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*KIDS FISHING*/
+#kidsfishing { 
+  width:400px;
+  float:right;
+  margin-left:20px;
+  margin-right:30px;
+  margin-top:200px;
+  padding:25px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*GIANT FB LOGO BOTTOM OF PAGE*/
+#facebook { 
+  position:absolute;
+  width:400px;
+  padding:20px;
+  margin-left:700px;
+  Margin-right:400px;
+  margin-top:-50px;
+}
+
+/*CONTACT----------------------------------------------------------------------- */
+/*LIST OF INFO ON BIZ*/
+.listcontact { 
+  list-style-type:none;
+  font-size:40px;
+  text-align:center;
+  background-color:rgba(58, 88, 62, 0.644);
+  margin-left:300px;
+  margin-right:300px;
+  padding-bottom:20px;
+}
+/*FORM FOR CONTACTING*/
+.formcontact { 
+  background-color:rgba(58, 88, 62, 0.644);
+  margin-top:70px;
+  text-align:center;
+  margin-left:500px;
+  margin-right:500px;
+  font-size:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+/*DESCRIBING ISSUE TEXT BUBBLE*/
+.formcontacttextbub { 
+  width:300px;
+  height:25px;
+}
+
+/*PICTURES ON CONTACT ---------------*/
+/*FISH ON RIGHT OF CONTACT INFO*/
+#tallfish { 
+  position:absolute;
+  width:450px;
+  float:right;
+  margin-left:100px;
+  margin-top:-1100px;
+  padding:25px;
+  background-color:rgba(58, 88, 62, 0.644);
+}
+
+/*FISHERMAN ON LEFT OF CONTACT INFO*/
+#udnerwaterfish { 
+  width:450px;
+  float:right;
+  margin-right:60px;
+  margin-top:-1100px;
+  padding:25px;
+  background-color:rgba(58, 88, 62, 0.644);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 
+  Author: Kassandra Nusbaumer
+  Date:3/27/2023
+  ProjectName: LakeSide_StoreWebsite
+  PageTitle:index.html
+  -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Howard's LakeSide General Store</title> <!--Name of tab w Business Name-->
+  <link rel="icon" type="image/x-icon" href="longfish.jpg"> <!-- Icon left in Tab -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> <!--FONT PAGE-->
+  <style> 
+  /* For width of photos for products & services*/
+    #serviceop { 
+      width:100%; 
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVIGATION SYSTEM-->
+  <nav> 
+    <div class="search-container">
+      <form>
+        <input type="text" placeholder="Search" name="search"><!-- SEARCH BAR -->
+      </form>
+    </div>
+    <img src="searchicon.png" alt="search icon" class="searchicon"> <!--SEARCH ICON -->
+    <img src="chart.jpg" alt="Cart" class="navicon"> <!-- CART ICON -->
+    <img src="usericon.png" alt="Icon" class="navicon"> <!--USER ICON-->
+    <p><a href="index.html">                                 <!-- I AM SO PROUD OF THIS SIMPLE THING SO I AM LEAVING THIS COMMENT TO REMIND ME-->
+      <img src="logo.png" alt="LOGO" class="logopic"></a>
+    </p>
+    <!--LINKS-->
+    <div class="navlinks">
+      <a href="index.html">home</a>
+      <div class="dropdown"> <!-- Drop down list for products -->
+        <button class="dropbtn">shop</button>
+        <div class="dropdown-content">
+          <a href="bait.html">bait</a>
+          <a href="tackle.html">tackle</a>
+          <a href="service.html">services</a>
+        </div>
+      </div>
+      <a href="about.html" class="links">about</a>
+      <a href="contact.html" class="links">contact</a>
+    </div>
+  </nav>
+
+  <!--BANNER PHOTO + TITLE UNDER NAV-->
+  <img src="darkgreen.jfif" alt="TREE" class="banner">
+  <h2 class="slogan" style="font-size:50px;">Here to provide you the highest quality of live bait, tackle and service at fair prices!</h2>
+
+  <!--Subtitle for page -->
+  <h1 class="titlehome" style="margin-top:70px;margin-bottom:-150px;text-align:left;margin-right:1100px;margin-left:200px;">Our Goal to You</h1>
+  <img src="products.jpg" alt="products" id="product">
+  <!--Paragraph for Goal -->
+  <p class="homeintro">We have anything and everything for your fishing needs (camping too!). We have dedicated our shop to the local fishers, campers, and community to bring the best product to our small town!
+    With the convincence of being within walking distance of one of our beautiful Ohio lakes, we aim to help you find the perfect bait, gear, and even the perfect snacks to help create the perfect fishing trip for you!
+    <br><br>
+    Wherever you perfer to do your fishing wether it might be on the bank, your boat, or a dock, we can ensure our products will only bring out the best of the best fish to catch your line!
+    We are very proud to say that we restock our live bait inventory daily to give you the best of the best and only it! If you ever second guess our inventory, you can always ring up to our shop
+    to confirm what we have due to demand and seasonal changes.
+  </p>
+  <!--MAPS PHOTO + SUBTITLE -->
+  <h1 class="titlehome" style="margin-top:70px;margin-left:600px;margin-right:600px;margin-bottom:50px;">Location</h1>
+  <img src="map.png" alt="Map" id="directions">
+
+  <!--SUBTITLE + Options for shopping -->
+  <h1 class="titlehome" style="margin-top:50px;margin-left:120px;margin-bottom:30px;margin-right:70px;">Products and Services We Provide</h1>
+  <!--BAIT -->
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="livebait.png" alt="Live Bait Worms" id="serviceop">
+        <div class="container">
+          <h2>Bait</h2>
+          <p>Variety in Live Fish, live bait, and cold bait!</p>
+          <p><button class="button">Shop Now</button></p>
+        </div>
+      </div>
+    </div>
+   <!-- SERVICES-->
+    <div class="column">
+      <div class="card">
+        <img src="reel.jpg" alt="Reel" id="serviceop">
+        <div class="container">
+          <h2>Services</h2>
+          <p>We offer services like reel respooling and hunting & fishing licences.</p>
+          <p><button class="button">Shop Now</button></p>
+        </div>
+      </div>
+    </div>
+    <!-- TACKLE -->
+    <div class="column">
+      <div class="card">
+        <img src="tackle.jpg" alt="Assorted Tackle" id="serviceop">
+        <div class="container">
+          <h2>Tackle</h2>
+          <p class="title"></p>
+          <p>We offer brands like Abu Garcia, Berkley, and Danielson to help solve all your tackle needs!</p>
+          <p><button class="button">Shop Now</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM LINKS + LOGO -->
+  <nav class="footernav">
+    | <a href="index.html" class="links">home</a> | 
+    <a href="about.html" class="links">about</a> | 
+    <img src="logo.png" alt="LOGO" class="footerlogo">
+    | <a href="contact.html" class="links">contact</a> | 
+    <a href="bait.html" class="links">products</a> | <br> 
+    <!--LINK TO FB LOGO TO THEIR REAL FB--> 
+    <p><a href="https://www.facebook.com/people/Howards-Lakeside-General-Store/100057407261126/?view_public_for=424457621477830" target=”_blank”>                                
+      <img src="facebook.webp" alt="FB" class="footerfb"></a>
+    </p>
+  </nav>
+
+  <!-- REAL FOOTER -->
+  <footer>
+    <p>© 2023 Howard's Lakeside General Store | All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

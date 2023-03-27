@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 
+  Author: Kassandra Nusbaumer
+  Date:3/27/2023
+  ProjectName: LakeSide_StoreWebsite
+  PageTitle:contact.html
+  -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Howard's LakeSide General Store</title>
+  <link rel="icon" type="image/x-icon" href="fishicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+  <!--NAV SYSTEM-->
+  <nav>
+    <div class="search-container">
+      <form>
+        <input type="text" placeholder="Search" name="search">
+      </form>
+    </div>
+    <img src="searchicon.png" alt="search icon" class="searchicon">
+    <img src="chart.jpg" alt="Cart" class="navicon">
+    <img src="usericon.png" alt="Icon" class="navicon">
+    <p><a href="index.html">                                 <!-- I AM SO PROUD OF THIS SIMPLE THING SO I AM LEAVING THIS COMMENT TO REMIND ME-->
+      <img src="logo.png" alt="LOGO" class="logopic"></a>
+    </p>
+    <div class="navlinks">
+      <a href="index.html">home</a>
+        <div class="dropdown">
+          <button class="dropbtn">shop</button>
+          <div class="dropdown-content">
+            <a href="bait.html">bait</a>
+            <a href="tackle.html">tackle</a>
+            <a href="service.html">services</a>
+          </div>
+        </div>
+      <a href="about.html" class="links">about</a>
+      <a href="contact.html" class="links">contact</a>
+    </div>
+  </nav>
+
+  <!--BANNER + TITLE-->
+  <img src="phonebanner.webp" alt="Phone" class="banner">
+  <h2 class="slogan">Contact</h2>
+
+  <!-- CUSTOMER SERVICE SECTION W CONTACT INFO-->
+
+  <h1 class="rowtitle" style="margin-top:20px;margin-left:400px;margin-right:400px;">Customer Support</h1>
+  <p class="homeintro" style="font-size:30px;text-align:center;margin-top:10px;margin-left:300px;margin-right:300px;">We will try to respond to your request as quickly as we possible can.<br>However as a small bussiness, we sometimes end up very busy to a day-by-day basis.<br>
+  <br>We are asking that you wait 24 hours for us to respond before sumbitting another request!<br><br>We appericate your patience!</p>
+ 
+  <!--LIST OF CONTACT OPTIONS-->
+  <ul class="listcontact">
+    <li><br>Email<br>[Outside of open hours]<br> HowardsLakeside@gmail.com</li>
+    <li><br><br>Phone<br>[ONLY DURING OPEN HOURS]<br> 937-505-1037</li>
+    <li><br><br>Location<br>[For in-person concerns]<br> 1919 Croft Rd, Springfield, Ohio 45503</li>
+  </ul>  
+
+  <!--SIDE PHOTOS FOR CONTACT INFO-->
+  <img src="sidecontact.jpg" alt="FISHERLAKE" id="tallfish">
+  <img src="sidecontactone.jpg" alt="FISHLAKE" id="udnerwaterfish">
+  
+  <!--FORM FOR CONTACT-->
+  <div class="formcontact">
+    <form action="thankyou.html">
+      <!-- FIRST NAME  -->
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" class="formcontacttextbub"><br>
+
+      <!-- LAST NAME-->
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" class="formcontacttextbub"><br>
+
+      <!-- PHONE NUMBER FORM-->
+      <label for="phone"><br>Enter a phone number:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="123-45-678" class="formcontacttextbub"><br><br>
+
+      <!--EMAIL FORM -->
+      <label for="email">Enter a Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="ILoveFishing@Gmail.com" class="formcontacttextbub"><br><br>
+
+      <!-- FIRST OR SECOND TIME TO REACH COMPANY -->
+      <p><br>Is This Your Second Attempt to Reach Us</p>
+        <input type="radio" id="yes" name="numrequest" value="yes"> <!--YES-->
+        <label for="yes">Yes</label><br>
+
+        <input type="radio" id="no" name="numrequest" value="no"> <!--NO-->
+        <label for="no">No</label><br>
+
+      <!-- PREFERRED WAY OF CONTACT FORM-->
+      <p><br>Please Choose Preferred Way Of Contact [Can Choose Multiple]</p>
+        <input type="checkbox" id="email" name="email" value="email"> <!-- EMAIL -->
+        <label for="email">Email</label><br>
+
+        <input type="checkbox" id="phone" name="phone" value="phone"> <!--PHONE -->
+        <label for="phone">Phone</label><br>
+
+        <input type="checkbox" id="mail" name="mail" value="mail"> <!--TEXT-->
+        <label for="mail">Text</label><br>
+
+      <!-- DESCRIBING CONCERN FORM-->
+      <p><br>Please Describe Your Concern for Us.</p><br>
+        <input type="text" id="describe" name="numrequest"  style="width:700px;height:300px;"><br>
+        <input type="submit" value="Submit" style="margin-top:50px;font-size:50px;padding:20px;color:white;background-color:rgb(14, 73, 34);font-family:Trirong serif;">
+    </form>
+  </div>
+
+  <!--FOOTER STUFF-->
+  <nav class="footernav" style="margin-top:200px;">
+    | <a href="index.html" class="links">home</a> | 
+    <a href="about.html" class="links">about</a> | 
+    <img src="logo.png" alt="LOGO" class="footerlogo">
+    | <a href="contact.html" class="links">contact</a> | 
+    <a href="bait.html" class="links">products</a> | <br> 
+    <!--LINK TO FB LOGO TO THEIR REAL FB--> 
+    <p><a href="https://www.facebook.com/people/Howards-Lakeside-General-Store/100057407261126/?view_public_for=424457621477830" target=”_blank”>                                
+      <img src="facebook.webp" alt="FB" class="footerfb"></a>
+    </p>
+  </nav>
+
+  <footer>
+    <p>© 2023 Howard's Lakeside General Store | All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
