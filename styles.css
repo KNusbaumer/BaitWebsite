@@ -207,7 +207,7 @@ footer {
 }
   
 .container {
-  padding: 10 16px;
+  padding: 10px;
 }
   
 .container::after, .row::after {
@@ -274,8 +274,8 @@ footer {
 
 /*PICTURE WITH PRODUCT*/
 .productpics { 
-  width:600;
-  height:400;
+  width:600px;
+  height:400px;
 }
 
 /*LINING UP PRODUCTS*/
